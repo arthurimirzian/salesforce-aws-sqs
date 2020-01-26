@@ -45,7 +45,7 @@ public class Sqs {
 		} else if (aws_queue_name == null) {
 			throw new AwsException('Queue is mandatory');
 		} else if (aws_account_id == null) {
-			throw new AwsException('Body is mandatory');
+			throw new AwsException('Account ID is mandatory');
 		} else if (message_body == null) {
 			throw new AwsException('Body is mandatory');
 		}
