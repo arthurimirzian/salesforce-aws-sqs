@@ -13,7 +13,7 @@ public class Sqs {
 
 	// Create a date for headers and the credential string
 	private static Final Datetime now = Datetime.now();
-	private static Final String amz_date = now.formatGmt('YMMdd') + 'T' + now.formatGmt('Hmmss') + 'Z';
+	private static Final String amz_date = now.formatGmt('YMMdd') + 'T' + now.formatGmt('HHmmss') + 'Z';
 	private static Final String date_stamp = now.formatGmt('YMMdd');
 
 	// Read AWS access key from env. variables or configuration file. 
