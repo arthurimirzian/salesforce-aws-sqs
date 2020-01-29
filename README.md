@@ -1,5 +1,5 @@
-# aws-sqs
-SDK for AWS SQS 
+# Amazon Simple Queue Service (SQS) SDK for Salesforce Apex
+Amazon Simple Queue Service (SQS) is a fully managed message queuing service that enables you to decouple and scale microservices, distributed systems, and serverless applications.
 
 ## SendMessage
 https://docs.aws.amazon.com/AWSSimpleQueueService/latest/APIReference/API_SendMessage.html
